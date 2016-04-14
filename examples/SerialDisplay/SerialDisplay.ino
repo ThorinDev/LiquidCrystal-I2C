@@ -5,7 +5,6 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup()  {
 	lcd.begin();
-	lcd.backlight();
   
 	// Initialize the serial port at a speed of 9600 baud
 	Serial.begin(9600);
